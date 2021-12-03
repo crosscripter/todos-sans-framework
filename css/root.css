@@ -1,0 +1,8 @@
+
+:root {
+    --offwhite: #fafafa;
+    --darkest-gray: #111;
+    --med-gray: #222;
+    --dark-gray: #333;
+    --bg-gradient: linear-gradient(var(--darkest-gray) 10%, var(--med-gray) 50%, var(--dark-gray));
+}

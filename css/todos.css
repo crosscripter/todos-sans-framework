@@ -1,0 +1,33 @@
+.todos {
+    display: block;
+    background-color: var(--darkest-gray);
+    border: 1px solid var(--med-gray);
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 5px;
+    padding-bottom: 5rem;
+}
+
+:focus { outline: none; }
+
+#add {
+    font-size: 1.5rem;
+    width: 270px;
+    color: var(--offwhite);
+    padding: 1rem 3rem;
+    position: relative;
+    top: -6rem;
+    border: 0;
+    border-bottom: 2px solid var(--med-gray);
+    background: transparent;
+    margin: 0.5rem 1rem;
+}
+
+#add:focus {
+    border-bottom: 2px solid var(--dark-gray);
+}
+
+#controls {
+    position: relative;
+    top: -3rem;
+}
